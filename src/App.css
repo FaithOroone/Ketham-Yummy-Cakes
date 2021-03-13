@@ -1,0 +1,202 @@
+/* /* /* .App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+
+ .Social-container{
+  background: grey;
+  padding: 25px 50px;
+  width: 100%;
+  float: left;
+  margin: 0 ;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #222; 
+  border-top: 1px solid #222; 
+  display: flex;
+  position: relative;
+  bottom: 0;
+} 
+a{
+  margin: 0 1rem;
+  transition: transform 250ms;
+  /* display: inline-block; */
+  color:black
+} 
+
+
+a:hover {
+  transform: translateY(-2px);
+  /* background-color: black; */
+  text-decoration: none !important;
+  color: white;
+}
+
+a.Youtube {
+  color: red;
+}
+
+a.Facebook {
+  color: #4968ad;
+}
+
+a.Twitter {
+  color: #49a1eb;
+}
+
+a.Instagram {
+  color: black;
+}
+/* 
+.nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  background-color: #333;
+  border-bottom: 1px solid #222; 
+  border-top: 1px solid #222; }
+
+.nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color:#ccc;
+  align-items: center;
+  border-right: 1px solid #222;
+  justify-content: space-between; }
+
+.nav li {
+  float: left; } */
+
+.image-container{
+  background: #eee;
+  padding: 25px 50px;
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #333;
+  border-bottom: 1px solid #222; 
+  border-top: 1px solid #222; 
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+/* button {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding:  0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(22, 165, 58);
+  color: #fefefe;
+}
+button:hover {
+  background-color: rgb(6, 73, 11);
+  color: #fefefe;
+} */
+
+.image-container{
+  display: flex;
+}
+
+.Cake img{
+  width: 80%;
+  height: 60%; 
+}
+
+.Signup-container{
+  display: grid;
+}
+/* 
+.logo-container{
+  background: #eee;
+  padding: 25px 50px;   
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;  
+} */
+
+.logo img{
+  width:50px;
+  height:50px;
+}
+.Vision img{
+  width: 300px;
+  height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-content: center;
+}
+
+.About-container{
+  width: 100%;
+  float: left;
+  background: grey;
+  padding: 80px 80px;
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  list-style: none;
+  display: flex;
+}
+.About{
+  background-color: grey;
+}
+.CoreValues{
+  width: 50%;
+  padding: 25px 50px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.styledLink{
+  display: block;
+  text-decoration: none;
+}
